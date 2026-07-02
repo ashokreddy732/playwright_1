@@ -1,6 +1,7 @@
 exports.signUp =
 class signUp {
     constructor(page) {
+        
         this.page = page;
         this.url = 'https://qa.prokraya.ai/register';
         this.signinLink = 'Already a member? Sign In';

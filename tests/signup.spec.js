@@ -4,6 +4,7 @@ const { signUpData } = require('./data/signup');
 
 test('Verify all elements and valid signup', async ({ page }) => {
   
+  
   const signUpPage = new signUp(page);
   await signUpPage.goto();
   await signUpPage.verifyallElements();

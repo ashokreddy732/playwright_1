@@ -10,5 +10,6 @@ exports.signUpData = {
         department: 'Sales',
         password: 'Test@123',
         confirmPassword: 'Test@123',
+        
     }
 }
